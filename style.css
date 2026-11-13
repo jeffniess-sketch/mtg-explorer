@@ -58,3 +58,20 @@ td.empty { text-align: center; color: var(--text2); padding: 20px; }
 .site-foot { margin-top: 20px; color: var(--text2); font-size: 13px; }
 .site-foot p { margin: 0 0 8px; }
 .disclaimer { font-size: 12px; }
+/* static collector-group pages + crawlable nav under the app */
+.muted { color: var(--text2); }
+.crumbs { font-size: 14px; margin: 0 0 8px; color: var(--text2); }
+.static .section h2, .static-nav h2 { font-size: 18px; margin: 14px 0 8px; }
+.static .section h2:first-child { margin-top: 0; }
+.static .text { margin: 0 0 10px; }
+.cta { margin: 0 0 12px; }
+.btn-link { display: inline-block; padding: 8px 14px; border-radius: 8px; background: var(--accent); color: #fff; font-size: 14px; font-weight: 600; }
+.btn-link:hover { text-decoration: none; filter: brightness(1.08); }
+@media (prefers-color-scheme: dark) { .btn-link { color: #10131a; } }
+.static .table-wrap { max-height: none; }
+.group-list { list-style: none; padding: 0; margin: 0 0 6px; display: grid; grid-template-columns: repeat(auto-fill, minmax(230px, 1fr)); gap: 6px 16px; font-size: 14px; }
+.group-list .muted { font-size: 12px; margin-left: 4px; }
+.static-nav { padding-top: 0; }
+.tiers { font-size: 14px; }
+@media (max-width: 460px) { .static td, .static th { padding: 7px 6px; font-size: 13px; } }
+@media (max-width: 520px) { .static .rar { display: none; } .static td.num:first-child, .static th.num:first-child { padding-right: 2px; } }
